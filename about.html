@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/1370a1c44f.js" crossorigin="anonymous"></script>
+
+	<link rel="icon" href="images/">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/nav.js" defer></script>
+
+	<title>Cyan's Portfolio</title>
+</head>
+
+<body>
+	<header>
+	<a  href="#main" class="skip">Jump to content</a>
+
+		<div class="container">
+			<img src="images/favicon.png" alt="logo" class="logo" height="50">
+
+			<button class="mobile-nav-toggle" aria-expanded="false">
+				<span class="sr-only">Menu</span>
+			</button>
+
+			<nav>
+				<ul data-visible="false">
+					<li><a href="./index.html"><span class="num">01 </span>Home</a></li>
+					<li><a href="./gallery.html"><span class="num">02 </span>Gallery</a></li>
+					<li><a href="./resume.html "><span class="num">03 </span>Resume</a></li>
+					<li class="active"><a href="./about.html "><span class="num">04 </span>About</a></li>
+				</ul>
+			</nav>
+	</div>
+		<!-- <a href="#main" class="skip">Jump to content</a> -->
+	</header>
+
+	<main id="main">
+		<h1>More about me</h1>
+
+		<div class="prjlist">
+		<ul>
+			<li><a>An animation fan</a></li>
+			<li><a>Watersport lover</a></li>
+		</ul>
+		</div>
+
+		<p>
+		  The animation I enjoy & sketches I draw: <br><br>
+		  The pictures I took during watersport: <br><br>
+		  The food I love:
+		  Welcome to see the squirrel feeding video I edited!
+		  <br><br>Snorkeling (British and Commonwealth English spelling: snorkelling) is the practice of swimming on or through a body of water while equipped with a diving mask, a shaped breathing tube called a snorkel, and usually swimfins. In cooler waters, a wetsuit may also be worn. Use of this equipment allows the snorkeler to observe underwater attractions for extended periods with relatively little effort and to breathe while face-down at the surface. Snorkeling is possible in almost any body of water, but snorkelers are more likely to be found in locations where the water is warm, waves are small and there is something particularly interesting to see near the surface such as a reef or a shipwreck.
+		</p>
+		<p>
+		  <br><br>Snorkeling is a very popular recreational activity, particularly at tropical resort locations. It provides the great opportunity to observe underwater life, plants and animals in a natural setting without the complicated equipment and training required for scuba diving. It appeals to all ages because of how little effort is involved and is the basis of the two surface disciplines of the underwater sport of finswimming. Snorkeling is also used by scuba divers when on the surface of water, in underwater sports such as underwater hockey and underwater rugby, and as part of water-based searches conducted by search and rescue teams.
+		</p>
+
+		<figure>
+			<div class="mesport">
+			<img src="images/about/water_sport.jpeg"  alt="Image of me doing watersport" width="350"/>
+		    </div>
+			<figcaption>Image of me doing watersport</figcaption>
+		</figure>
+
+	</main>
+
+	<form action="https://formspree.io/f/xdojpybv" method="POST">
+		<label class="email">
+		Your email:
+		<input type="email" name="email" value="Input your email here">
+		</label>
+		<label class="msg">
+		Your message:
+		<input type="text" name="message" value="Anything you want to tell me">
+		</label>
+		<button class="formbutton" type="submit">Send</button>
+    </form>
+
+	<footer>
+		&copy; 2022
+	</footer>
+</body>
+</html>

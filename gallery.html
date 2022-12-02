@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/1370a1c44f.js" crossorigin="anonymous"></script>
+
+	<link rel="icon" href="images/">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/nav.js" defer></script>
+
+	<title>Cyan's Portfolio</title>
+</head>
+
+<body>
+	<header>
+	<a href="#main" class="skip" >Jump to content</a>
+
+		<div class="container">
+			<img src="images/favicon.png" alt="logo" class="logo" height="50">
+
+			<button class="mobile-nav-toggle" aria-expanded="false">
+				<span class="sr-only">Menu</span>
+			</button>
+
+			<nav>
+				<ul data-visible="false">
+					<li><a href="./index.html"><span class="num">01 </span>Home</a></li>
+					<li class="active"><a href="./gallery.html"><span class="num">02 </span>Gallery</a></li>
+					<li><a href="./resume.html "><span class="num">03 </span>Resume</a></li>
+					<li><a href="./about.html "><span class="num">04 </span>About</a></li>
+				</ul>
+			</nav>
+	</div>
+		<!-- <a href="#main" class="skip">Jump to content</a> -->
+	</header>
+
+	<main id="main">
+		<h1>Gallery</h1>
+
+		<div class="prjlist">
+			<ul>
+			<li><a>Gallery</a></li>
+			<li><a>UX projects</a></li>
+			<li><a>Media art projects</a></li>
+			<li><a>HCI projects</a></li>
+			</ul>
+		</div>
+
+		<div class="flexcontainer">
+
+		<figure class="galleryflex">
+			<img src="images/gallery/ux/magic_band_cover.png" alt="Image of Project1: An AR headband for patients with bidirectional BCI implants"/>
+			<figcaption>Project1: An AR headband for patients with bidirectional BCI implants
+				With the development of Brain-Computer Interface (BCI) in the medical field, invasive BCI is going to be a common treatment for a million people in treating serious emotion/motor function diseases. However, the mental care needs of patients after the implantation surgery are neglected and become the main reason hindering their social adjustment. After user research, I found that “uncontrollable anxiety” and “life difficulties” are two major pain points of patients. Therefore, I designed a headband with Augmented Reality(AR) that ease life difficulties such as crashing and charging. Patients will be reminded to take soothing activities in AR if a high anxiety level is detected.
+				<br><br>Result
+				<br><br> 1. User testing showed a general acceptance and positive attitude from the users.
+				<br><br> 2. 89% of participants' GSR signals demonstrate a decreasing trend, indicating the effect of the therapy in reducing anxiety.
+				<br><br> 3. 78% of the participants have a lower score on the State-Trait Anxiety Inventory after the therapy, which indicates a lower anxiety level.
+			</figcaption>
+		</figure>
+
+		<figure class="galleryflex">
+			<img src="images/gallery/ux/muky_cover.png" alt="Image of Project2: An AI-enhanced Domestic Piano Practice Experience for Pre-schoolers"/>
+			<figcaption>Project2: An AI-enhanced Domestic Piano Practice Experience for Pre-schoolers
+				<br><br>Overview and result: Muky is an online Pre-school Music Education (PME) platform that guides domestic piano practice for children and parents. By using projection on keyboard and AI sound recognition, parents can help their children practice better at home. The project participated in HK Tech 300 Incubation project and was highly regarded by the judges; It was examined by professionals in the field of music education and received positive feedback; Users that were invited in the tests commented that the system meets their needs and is the proper way to solve their problems. Methods adopted: Qualitative & quantitative user research; User testing; Market & competitor analysis; UI animation; Literature review; Persona;
+			</figcaption>
+		</figure>
+
+		<figure class="galleryflex">
+			<img src="images/gallery/ux/ble_zims.png" alt="Image of Project3: A website design for a chocolate brand's retargeting younger customers"/>
+			<figcaption>Project3: A website design for a chocolate brand's retargeting younger customers</figcaption>
+		</figure>
+
+		<figure class="galleryflex">
+			<img src="images/gallery/art/para_eye_cover.png" alt="Image of Project1: A monster-like wearable installation reflecting consumerism on social media"/>
+			<figcaption>Project1: A monster-like wearable installation reflecting consumerism on social media</figcaption>
+		</figure>
+
+		<figure class="galleryflex">
+			<img src="images/gallery/art/typhoon_cover.png" alt="Image of Project2: A wooden installation as a reflection of human's relationship with natural disasters"/>
+			<figcaption>Project2: A wooden installation as a reflection of human's relationship with natural disasters</figcaption>
+		</figure>
+
+		<figure class="galleryflex">
+			<img src="images/gallery/art/kowloon_cover.png" alt="Image of Project3: A GPS art in memory of a Hong Kong's controversial city legend"/>
+			<figcaption>Project3: A GPS art in memory of a Hong Kong's controversial city legend </figcaption>
+		</figure>
+
+		<figure class="galleryflex">
+			<img src="images/gallery/hci/foldable_cover.png" alt="Image of Project1: Evaluating three touch gestures for moving objects across folded screens"/>
+			<figcaption>Project1: Evaluating three touch gestures for moving objects across folded screens</figcaption>
+		</figure>
+
+		<figure class="galleryflex">
+			<img src="images/gallery/hci/fingercad_cover.png" alt="Image of FingerCad"/>
+			<figcaption>Project2: FingerCad</figcaption>
+		</figure>
+
+		<figure class="galleryflex">
+			<img src="images/gallery/hci/vtl_cover.png" alt="Image of Project3: Exploratory studies to inform the design of a multi-camera remote teaching and learning system"/>
+			<figcaption>Project3: Exploratory studies to inform the design of a multi-camera remote teaching and learning system</figcaption>
+		</figure>
+
+		</div>
+	</main>
+
+	<form action="https://formspree.io/f/xdojpybv" method="POST">
+		<label class="email">
+		Your email:
+		<input type="email" name="email" value="Input your email here">
+		</label>
+		<label class="msg">
+		Your message:
+		<input type="text" name="message" value="Anything you want to tell me">
+		</label>
+		<button class="formbutton" type="submit">Send</button>
+    </form>
+
+	<footer>
+		&copy; 2022
+	</footer>
+</body>
+</html>

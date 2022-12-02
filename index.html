@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/1370a1c44f.js" crossorigin="anonymous"></script>
+
+	<link rel="icon" href="images/">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/nav.js" defer></script>
+
+	<title>Cyan's Portfolio</title>
+</head>
+
+<body>
+	<header>
+	<a href="#main" class="skip" >Jump to content</a>
+
+		<div class="container">
+			<img src="images/favicon.png" alt="logo" class="logo" height="40">
+
+			<button class="mobile-nav-toggle" aria-expanded="false">
+				<span class="sr-only">Menu</span>
+			</button>
+
+			<nav>
+				<ul data-visible="false">
+					<li class="active"><a href="./index.html"><span class="num">01 </span>Home</a></li>
+					<li><a href="./gallery.html"><span class="num">02 </span>Gallery</a></li>
+					<li><a href="./resume.html "><span class="num">03 </span>Resume</a></li>
+					<li><a href="./about.html "><span class="num">04 </span>About</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main id="main">
+
+			<h1>Self-Introduction</h1>
+			<h2 class="homepageh2">Hi, I'm Cyan </h2>
+			<i class="fa-solid fa-hands poptext"></i>
+			<p>
+				As an UX/UI designer with specialties in user research and interaction design, I enjoy the process of tranferring promotion goals to deliverable UX features. I'm a fan of fantasy stories and a watersport lover currently pursuing my graduate degree at the University of Michigan.
+				<br><br>
+				What I love is communicating and connecting with people, which is the reason to start my UX career. It is my hope to create more humanized interactions that provide benefits to both the company and their customers. I had experience as a UXUI designer, HCI researcher, graphic designer, and media operator previously. My specification is in user research and website design that can build brand awareness and trust.
+			</p>
+
+			<figure>
+					<img class="myphoto" src="images/homepage/my_photo.png"  alt="Image of me"/>
+			</figure>
+
+			<h2 class="homepageh2">My Experience </h2>
+			<p>
+				During my internship as a UXUI designer and my 5 UX projects on Mobile and Web, I am familiar with the problem-solving process through UX methods such as information architecture, wireframes, personas, etc. Having been working as a part-time graphic designer for more than 3 years, I am also confident to create interfaces with a sense of aesthetics. During my internship, my main tasks were designing E-Commerce and promotion websites for clients. Therefore, I have a basic understanding of common design patterns and practices, which can help me complete tasks more effectively. I believe I can make a difference as a UX designer to create value for both customers and the company.
+				<br><br>
+				With the publication of 2 HCI papers at top conferences, I enjoy studying user-experience principles and discovering insights from user research, including qualitative data from interviews and observation, and quantitative data from surveys and experiments. Those insights are often translated to systems with higher usability that create a seamless experience for users.
+
+			</p>
+
+			<h2 class="homepageh2">My Highlighted Projects</h2>
+			<figure>
+				<div class="homepagegrid">
+					<img class="project1" src="images/gallery/prj box Muky-1.png"  alt="Project image 1"/>
+					<img class="project2" src="images/gallery/prj box Muky.png"  alt="Project image 2"/>
+				</div>
+				<!-- <figcaption>Image of me</figcaption> -->
+			</figure>
+
+	</main>
+
+	<aside>
+		<p class="asidetext">Have a chat with me  <i class="fa-regular fa-comment"></i></p>
+	</aside>
+
+
+	<form action="https://formspree.io/f/xdojpybv" method="POST">
+		<label class="email">
+		Your email:
+		<input type="email" name="email" value="Input your email here">
+		</label>
+		<label class="msg">
+		Your message:
+		<input type="text" name="message" value="Anything you want to tell me">
+		</label>
+		<button class="formbutton" type="submit">Send</button>
+    </form>
+
+
+	<footer>
+		&copy; 2022
+	</footer>
+
+</body>
+
+</html>

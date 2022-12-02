@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/1370a1c44f.js" crossorigin="anonymous"></script>
+
+	<link rel="icon" href="images/">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/nav.js" defer></script>
+
+	<title>Cyan's Portfolio</title>
+</head>
+
+<body>
+	<header>
+	<a href="#main" class="skip" >Jump to content</a>
+
+		<div class="container">
+			<img src="images/favicon.png" alt="logo" class="logo" height="50">
+
+			<button class="mobile-nav-toggle" aria-expanded="false">
+				<span class="sr-only">Menu</span>
+			</button>
+
+			<nav>
+				<ul data-visible="false">
+					<li><a href="./index.html"><span class="num">01 </span>Home</a></li>
+					<li><a href="./gallery.html"><span class="num">02 </span>Gallery</a></li>
+					<li class="active"><a href="./resume.html "><span class="num">03 </span>Resume</a></li>
+					<li><a href="./about.html "><span class="num">04 </span>About</a></li>
+				</ul>
+			</nav>
+	</div>
+		<!-- <a href="#main" class="skip">Jump to content</a> -->
+	</header>
+
+	<main id="main">
+		<h1>My Resume</h1>
+
+		<p>
+			Click to look at my resume <br><br>
+			Looking forward to future cooperation with you!
+			<br><br>
+			During my internship at AdBees Digital as a UXUI designer, my main tasks were providing UX design solutions to clients across domains and industries. Therefore, I am familiar with communicating requirements and presenting the rationale of the work to stakeholders from different backgrounds, such as retail, tech, education, and the public sector. At the same time, I work closely with the research, engineering, and business team during internships and projects, acting as the bridge between users, clients, and the company that ensures the largest satisfaction of all parties. I’m now actively seeking internship opportunities. Therefore, if you think I’m a good match to your team, please feel free to contact me.
+		</p>
+		<p>
+			<br><br>
+			I always have a keen interest in emerging technologies across platforms and from digital to physical. Evidence is in my UX projects and research on the topics of Augmented Reality, projection, foldable phones, etc. I’m also a fan of animation and video games that have watched and played many masterpieces such as Final Fantasy and Persona. Therefore, nothing will motivate me more than the possibility to combine work and hobbies. Looking forward to future cooperation with you! I would be delighted to learn more about the internship and have an interview with you. Please feel free to contact me. Thank you and hope to hear from you soon.
+		</p>
+
+		<figure>
+			<div class="meinsuit">
+				<img src="images/resume/me_suit.jpeg" alt="Photo of me in suit" width=350px/>
+		    </div>
+			<figcaption>Photo of me in suit</figcaption>
+		</figure>
+
+	</main>
+
+	<form action="https://formspree.io/f/xdojpybv" method="POST">
+		<label class="email">
+		Your email:
+		<input type="email" name="email" value="Input your email here">
+		</label>
+		<label class="msg">
+		Your message:
+		<input type="text" name="message" value="Anything you want to tell me">
+		</label>
+		<button class="formbutton" type="submit">Send</button>
+    </form>
+
+	<footer>
+		&copy; 2022
+	</footer>
+</body>
+</html>
