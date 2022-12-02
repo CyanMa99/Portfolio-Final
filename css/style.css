@@ -583,6 +583,11 @@ form button{
 	  -webkit-transition: none;
 	  transition: none;
 	}
+	
+	nav ul{
+	-webkit-transition: none;
+	transition: none;
+	}
 
 	.myimg img:hover{
 		transform: scale(1);
